@@ -1,0 +1,25 @@
+2016-06-28T12:57:21.516486891 0.033038s notice: Recursively removing directory /home/ubuntu/workspace/rethinkdb_data/tmp
+2016-06-28T12:57:21.523209839 0.039763s notice: Initializing directory /home/ubuntu/workspace/rethinkdb_data
+2016-06-28T12:57:21.523326929 0.039877s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/ubuntu/workspace/rethinkdb_data' did not already exist or is empty.)
+2016-06-28T12:57:21.523357193 0.039907s notice: Running rethinkdb 2.3.4~0trusty (GCC 4.8.2)...
+2016-06-28T12:57:21.526985629 0.043537s notice: Running on Linux 4.2.0-c9 x86_64
+2016-06-28T12:57:21.527039159 0.043589s notice: Loading data from directory /home/ubuntu/workspace/rethinkdb_data
+2016-06-28T12:57:21.572490098 0.089042s info: Automatically using cache size of 8577 MB
+2016-06-28T12:57:21.573418840 0.089969s notice: Listening for intracluster connections on port 29015
+2016-06-28T12:57:21.574959619 0.091509s notice: Listening for client driver connections on port 28015
+2016-06-28T12:57:21.575108866 0.091659s notice: Listening for administrative HTTP connections on port 8080
+2016-06-28T12:57:21.575110427 0.091660s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-28T12:57:21.575112669 0.091662s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-28T12:57:21.575119831 0.091669s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-28T12:57:21.575126243 0.091676s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-28T12:57:21.575132660 0.091682s notice: Server ready, "thecodeassassin_soul_soldiers_api_3403058_6r7" a8124f36-e3a9-4227-8bea-57fcbd0428f8
+2016-06-28T12:57:30.118035020 8.634585s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-06-28T12:57:30.118194846 8.634745s notice: Shutting down client connections...
+2016-06-28T12:57:30.118309501 8.634859s notice: All client connections closed.
+2016-06-28T12:57:30.118321421 8.634871s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-06-28T12:57:30.119208811 8.635759s notice: Storage engine shut down.
+2016-08-16T22:01:22.009069181 0.047792s notice: Running rethinkdb 2.3.4~0trusty (GCC 4.8.2)...
+2016-08-16T22:01:22.022915563 0.061636s notice: Running on Linux 4.2.0-c9 x86_64
+2016-08-16T22:01:22.023016402 0.061734s notice: Loading data from directory /home/ubuntu/workspace/rethinkdb_data
+2016-08-16T22:01:22.058161198 0.096882s info: Automatically using cache size of 9833 MB
+2016-08-16T22:01:22.060970871 0.099688s error: TCP socket creation failed for port 29015: Address already in use.
